@@ -1,11 +1,32 @@
 
 #cabezera{
  background-color:#d5c75f;
+ border-radius: 10px;
+ height: 80%;
+ width: 100;
+ padding: 10px;
 }
 h1{
 color: White;
 text-shadow: 2px 2px #02010a;
-;
+text-align: left;
+}
+nav ul{
+  color: White;
+  list-style: none;
+  float: right;
+  padding: 2%;
+  background-color:blue;
+  padding:10px;
+  border-radius: 10px;
+
+
+}
+nav ul li{
+  display: inline;
+  margin:  10px;
+  text-shadow: 2px 2px #02010a;
+
 
 
 }
