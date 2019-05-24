@@ -16,16 +16,14 @@ nav ul{
   list-style: none;
   float: right;
   padding: 2%;
-  background-color:blue;
-  padding:10px;
-  border-radius: 10px;
-
 
 }
 nav ul li{
   display: inline;
   margin:  10px;
-  text-shadow: 2px 2px #02010a;
+  text-shadow: 1px 1px #02010a;
+  font-size: 20px;
+  text-decoration: underline;
 
 
 
