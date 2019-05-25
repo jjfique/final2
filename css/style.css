@@ -35,16 +35,41 @@ nav ul li:hover{
 #imagen1 {
   background-color:#82c3a6;
   height: 100%;
-  width: 100%;
+  width: 98%;
   padding: 2%;
   display: block;
 }
 
  .central{
 
-  height: 80%;
+  height: 100%;
   width: 50%;
   display:block;
   margin:auto;
 
+}
+#contenido2{
+     background-color:#d5c75f;
+     height: 100%;
+     width: 98%;
+     padding: 2%;
+     border style: solid;
+     border: solid 1px ;
+     border-color: black;
+     display: inline-flex;
+     margin:auto;
+}
+@media query {
+
+}
+.izquierda{
+  height: 100%;
+  width: 90%;
+  float: left;
+
+}
+.derecha{
+  height: 100%;
+  width: 90%;
+ float: right;
 }
