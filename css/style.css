@@ -90,6 +90,12 @@ nav ul li:hover{
   border: solid 2px;
   border-color: black;
 }
+.derecha:hover{
+  transform: translate(5px,-20px);
+  -webkit-box-shadow: 2px 2px 5px #82c3a6;
+  border: solid 2px;
+  border-color: black;
+}
 
 
 .derecha{
