@@ -70,10 +70,20 @@ nav ul li:hover{
      border: solid 1px ;
      border-color: black;
      display: inline-flex;
-     padding-bottom: 40px
+     padding-bottom: 40px;
+     padding-top:30px;
 
 }
 
+#contenido2 li {
+  list-style: none;
+  color: red;
+  text-align: center;
+}
+#contenido2 li:hover{
+    text-decoration: underline;
+
+}
 
 .izquierda{
   height: 100%;
