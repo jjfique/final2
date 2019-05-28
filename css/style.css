@@ -5,7 +5,6 @@
  border-radius: 10px 10px 0px 0px;
  height: 100%;
  width: 100%;
- padding: 1%;
 }
 h1{
 color: White;
@@ -31,45 +30,118 @@ nav ul li:hover{
     text-decoration: underline;
 
 }
-
-#imagen1 {
+#contenido {
   background-color:#82c3a6;
   height: 100%;
-  width: 98%;
-  padding: 2%;
+  width: 100%;
+
+
+
+}
+#imagen1{
+
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 50%;
+
+
+
 }
 
  .central{
 
   height: 100%;
-  width: 50%;
-  display:block;
-  margin:auto;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+
 
 }
 #contenido2{
      background-color:#d5c75f;
      height: 100%;
-     width: 98%;
-     padding: 2%;
+     width: 100%;
+
      border style: solid;
      border: solid 1px ;
      border-color: black;
      display: inline-flex;
-     margin:auto;
-}
-@media query {
+     padding-bottom: 40px
 
 }
+
+
 .izquierda{
   height: 100%;
-  width: 90%;
+  width: 80%;
   float: left;
+  margin: 10px 3% 1em ;
+
+
 
 }
+.izquierda:hover {
+  transform: rotate(10deg);
+  -webkit-box-shadow: 2px 2px 5px #82c3a6;
+  border: solid 2px;
+  border-color: black;
+}
+
+
 .derecha{
   height: 100%;
-  width: 90%;
+  width: 80%;
  float: right;
+ margin: 10px 3% 1em ;
+
+}
+footer{
+  background-color:  #C6d5c5;
+  height:100px;
+  width: 100%;
+   border-radius: 0px 0px 10px 10px;
+}
+
+@media (max-width: 600px) {
+
+  #imagen1{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 80%;
+
+  }
+
+  .central{
+
+   height: 100%;
+   width: 100%;
+   display:block;
+
+
+  }
+  #contenido2{
+    flex-direction: column;
+    margin-left: auto;
+    text-align: center;
+    border: none;
+
+  }
+  .derecha{
+   float: left;
+   padding-top: 20px;
+   padding-left:5%;
+  }
+  .izquierda{
+   float: left;
+   padding-top: 20px;
+   padding-left:5%;
+  }
+
 }
