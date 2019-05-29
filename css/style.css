@@ -26,6 +26,10 @@ nav ul li{
 
 
 }
+a:link {color: white;text-decoration: none }
+a:hover {color: white;text-decoration: none }
+a:visited {color: white;text-decoration: none }
+
 nav ul li:hover{
     text-decoration: underline;
 
@@ -126,10 +130,6 @@ footer{
    border-radius: 0px 0px 10px 10px;
    display: flex;
    flex-flow: row wrap;
-
-   font-family:sans-serif;
-   color: White;
-   text-shadow: 1px 1px #02010a;
 
 
 
