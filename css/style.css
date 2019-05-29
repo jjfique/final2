@@ -70,15 +70,19 @@ nav ul li:hover{
      border: solid 1px ;
      border-color: black;
      display: inline-flex;
-     padding-bottom: 40px;
+     padding-bottom: 100px;
      padding-top:30px;
 
 }
 
 #contenido2 li {
   list-style: none;
-  color: red;
+  color: white;
   text-align: center;
+  padding: none;
+  border: none;
+  margin: none;
+
 }
 #contenido2 li:hover{
     text-decoration: underline;
@@ -117,11 +121,48 @@ nav ul li:hover{
 }
 footer{
   background-color:  #C6d5c5;
-  height:100px;
+  height:100%;
   width: 100%;
    border-radius: 0px 0px 10px 10px;
-}
+   display: flex;
+   flex-flow: row wrap;
 
+   font-family:sans-serif;
+   color: White;
+   text-shadow: 1px 1px #02010a;
+
+
+
+
+}
+.contacto{
+  height:100%;
+  width: 20%;
+  border-radius: 0px 0px 10px 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.terminos{
+
+  height:100%;
+  width: 20%;
+   border-radius: 0px 0px 10px 10px;
+   margin-right: auto;
+}
+.redes{
+
+  height:100%;
+  width: 20%;
+  border-radius: 0px 0px 10px 10px;
+  margin-right: auto;
+}
+.derechos{
+
+  height:100%;
+  width: 20%;
+   border-radius: 0px 0px 10px 10px;
+   margin-right: auto;
+}
 @media (max-width: 600px) {
 
   #imagen1{
@@ -159,5 +200,35 @@ footer{
    padding-top: 20px;
    padding-left:5%;
   }
+
+}
+
+@media  (max-width: 600px) {
+  footer{
+    text-align: center;
+  }
+
+  .contacto{
+
+    width: 100%;
+    order: 1;
+
+  }
+  .terminos{
+
+    width: 100%;
+    order: 2;
+  }
+  .redes{
+
+    width: 100%;
+    order: 3;
+  }
+  .derechos{
+
+    width: 100%;
+    order: 4;
+  }
+
 
 }
