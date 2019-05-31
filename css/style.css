@@ -146,20 +146,22 @@ nav ul li:hover{
   .paisaje3{
     width: 30%;
   padding-right: 1%;
-  }
-  .paisaje3:hover {
   filter: blur(10px);
-}
+  }
+
   .paisaje4{
     width: 30%;
     padding-right: 1%;
+    filter: grayscale(100%);
   }
   .paisaje5{
     width: 30%;
+    filter: sepia(90%);
   }
   .paisaje6{
     width: 30%;
     padding-right: 1%;
+    filter: grayscale(100%);
   }
   .paisaje7{
     width: 30%;
@@ -167,7 +169,10 @@ nav ul li:hover{
   }
   .paisaje8{
     width: 30%;
+    filter: grayscale(100%);
   }
+
+
 }
 
 
