@@ -143,22 +143,29 @@ nav ul li:hover{
      padding-top: 2%;
      padding-bottom: 2%;
     }
-  .paisaje1{
-    width: 30%;
-  }
-  .paisaje2{
-    width: 30%;
-  }
   .paisaje3{
     width: 30%;
+  padding-right: 1%;
   }
+  .paisaje3:hover {
+  filter: blur(10px);
+}
   .paisaje4{
     width: 30%;
+    padding-right: 1%;
   }
   .paisaje5{
     width: 30%;
   }
   .paisaje6{
+    width: 30%;
+    padding-right: 1%;
+  }
+  .paisaje7{
+    width: 30%;
+
+  }
+  .paisaje8{
     width: 30%;
   }
 }
