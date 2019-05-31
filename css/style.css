@@ -123,6 +123,70 @@ nav ul li:hover{
  margin: 10px 3% 1em ;
 
 }
+
+/* estilos de pagina de paisajes escritorio*/
+@media (min-width: 900px) {
+  #galeria1{
+    height:100%;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   }
+   #galeria2{
+     height:100%;
+     width: 100%;
+     border-radius: 0px 0px 10px 10px;
+     text-align: center;
+     padding-top: 2%;
+     padding-bottom: 2%;
+    }
+  .paisaje1{
+    width: 30%;
+  }
+  .paisaje2{
+    width: 30%;
+  }
+  .paisaje3{
+    width: 30%;
+  }
+  .paisaje4{
+    width: 30%;
+  }
+  .paisaje5{
+    width: 30%;
+  }
+  .paisaje6{
+    width: 30%;
+  }
+}
+
+
+/* estilos de pagina de paisajes moviles*/
+@media (max-width: 900px) {
+  .paisaje1{
+    width: 50%;
+  }
+  .paisaje2{
+    width: 50%;
+  }
+  .paisaje3{
+    width: 50%;
+  }
+  .paisaje4{
+    width: 50%;
+  }
+  .paisaje5{
+    width: 50%;
+  }
+  .paisaje6{
+    width: 50%;
+  }
+}
+
+/* estilos del pie de pagina*/
 footer{
   background-color:  #C6d5c5;
   height:100%;
@@ -163,7 +227,7 @@ footer{
    border-radius: 0px 0px 10px 10px;
    margin-right: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
 
   #imagen1{
 
@@ -203,7 +267,7 @@ footer{
 
 }
 
-@media  (max-width: 600px) {
+@media  (max-width: 900px) {
   footer{
     text-align: center;
   }
